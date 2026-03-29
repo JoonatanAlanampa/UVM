@@ -5,7 +5,7 @@ UVM testbench for a FIFO block
 
 UVM testbench for a FIFO block. First the testbench is used with a fully functioning FIFO to verify it does not produce false positives. Then the testbench is used to catch errors in FIFOs (fifo1 and fifo2) not working according to the specification.
 
-[Block diagram](UVM.png)
+![Block diagram](UVM.png)
 
 ## How to run
 
