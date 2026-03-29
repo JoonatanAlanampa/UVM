@@ -16,8 +16,8 @@ class random_sequence extends basic_sequence;
 
     task body;
 
-        // handle for a transaction object
-        transaction tx;
+    // handle for a transaction object
+    transaction tx;
 	
 	// Generate the actual random sequence
 	repeat (n_trans) begin
