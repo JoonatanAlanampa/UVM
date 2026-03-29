@@ -1,0 +1,535 @@
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 1: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	00000000
+ DATA_FROM:	00000000
+ WE:	00000000
+ RE:	00000000
+ RST:	00000000
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 1: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 1: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 3: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	b95ac62f
+ DATA_FROM:	395ac62f
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 3: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 3: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 5: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	5f03d2ea
+ DATA_FROM:	395ac62f
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 5: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 5: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 7: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	03d5944d
+ DATA_FROM:	03d5944d
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 7: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 7: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 9: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	93bd15b4
+ DATA_FROM:	03d5944d
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 9: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 9: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 11: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	d8f3532e
+ DATA_FROM:	13bd15b4
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 11: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 11: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 13: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	0c0fe6d2
+ DATA_FROM:	d8f3532e
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 13: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 13: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 15: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	0ab45a12
+ DATA_FROM:	00000000
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 15: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 15: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 17: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	89b964df
+ DATA_FROM:	00000000
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 17: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 17: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 19: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	5167c763
+ DATA_FROM:	00000000
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 19: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 19: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 21: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	1fd16aad
+ DATA_FROM:	1fd16aad
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 21: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 21: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 23: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	db3b04cb
+ DATA_FROM:	395ac62f
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 23: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 23: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 25: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	9390c038
+ DATA_FROM:	1390c038
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 25: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 25: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 27: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	0b1ceb13
+ DATA_FROM:	03d5944d
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 27: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 27: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 29: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	ceaeb214
+ DATA_FROM:	03d5944d
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 29: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 29: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 31: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	8da2ef08
+ DATA_FROM:	0da2ef08
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 31: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 31: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 33: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	e30ed1c3
+ DATA_FROM:	e30ed1c3
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 33: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 33: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 35: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	ab82385f
+ DATA_FROM:	e30ed1c3
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 35: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 35: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 37: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	8baee3fc
+ DATA_FROM:	2b82385f
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 37: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 37: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 39: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	117fdd03
+ DATA_FROM:	1fd16aad
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 39: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 39: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 41: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	268c1fbe
+ DATA_FROM:	268c1fbe
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 41: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 41: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 43: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	fa46e277
+ DATA_FROM:	268c1fbe
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 43: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 43: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 45: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	55c1bcc4
+ DATA_FROM:	7a46e277
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 45: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 45: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 47: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	3eda64af
+ DATA_FROM:	0da2ef08
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 47: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 47: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 49: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	68e85691
+ DATA_FROM:	0da2ef08
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 49: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 49: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 51: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	59234129
+ DATA_FROM:	0da2ef08
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 51: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 51: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 53: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	68c11813
+ DATA_FROM:	68c11813
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 53: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 53: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 55: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	06aa5c84
+ DATA_FROM:	68c11813
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 55: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 55: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 57: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	51db864b
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 57: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 57: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 59: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	d44870a8
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 59: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 59: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 61: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	9bf86944
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 61: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 61: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 63: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	d783c8de
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 63: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 63: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 65: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	312adda7
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 65: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 65: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 67: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	d8ad5473
+ DATA_FROM:	e30ed1c3
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 67: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 67: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 69: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	fdfb44d6
+ DATA_FROM:	fdfb44d6
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 69: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 69: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 71: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	b881631a
+ DATA_FROM:	2b82385f
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 71: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 71: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 73: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	8ec41813
+ DATA_FROM:	8ec41813
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 73: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 73: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 75: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	41422711
+ DATA_FROM:	8ec41813
+ WE:	00000000
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 75: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 75: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 77: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	bd4a01d9
+ DATA_FROM:	bd4a01d9
+ WE:	00000001
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 77: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 77: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 79: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	ff36de81
+ DATA_FROM:	7a46e277
+ WE:	00000000
+ RE:	00000001
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000001
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000000
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 79: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 79: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO ../fifo_tb_pkg/random_test.svh(64) @ 80: uvm_test_top [random_test] Coverage limit reached
+UVM_INFO ../fifo_tb_pkg/monitor.svh(58) @ 81: uvm_test_top.env_h.agent_h.mnt_h [tlog] 
+ DATA_TO:	8bf266da
+ DATA_FROM:	0bf266da
+ WE:	00000001
+ RE:	00000000
+ RST:	00000001
+ FULL:	00000000
+ EMPTY:	00000000
+ ONE_PLACE:	00000000
+ ONE_DATA:	00000001
+
+UVM_INFO ../fifo_tb_pkg/monitor.svh(62) @ 81: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 81: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 82: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase

@@ -1,0 +1,166 @@
+vlib fifo_tb_lib
+** Warning: (vlib-34) Library already exists at "fifo_tb_lib".
+Errors: 0, Warnings: 1
+vmap work fifo_tb_lib
+QuestaSim-64 vmap 2024.3_2 Lib Mapping Utility 2024.11 Nov 25 2024
+vmap work fifo_tb_lib 
+Modifying modelsim.ini
+vcom ../rtl/fifo1.vhd
+QuestaSim-64 vcom 2024.3_2 Compiler 2024.11 Nov 25 2024
+Start time: 12:00:35 on Jan 28,2026
+vcom ../rtl/fifo1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fifo
+-- Compiling architecture behavioral of fifo
+End time: 12:00:35 on Jan 28,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+vlog +cover=s ../fifo_tb_pkg/dut_if.sv ../fifo_tb_pkg/fifo_tb_pkg.sv ../fifo_tb_top.sv
+QuestaSim-64 vlog 2024.3_2 Compiler 2024.11 Nov 25 2024
+Start time: 12:00:35 on Jan 28,2026
+vlog "+cover=s" ../fifo_tb_pkg/dut_if.sv ../fifo_tb_pkg/fifo_tb_pkg.sv ../fifo_tb_top.sv 
+-- Compiling interface dut_if
+-- Compiling package fifo_tb_pkg
+** Note: (vlog-2286) ../fifo_tb_pkg/fifo_tb_pkg.sv(17): Using implicit +incdir+/opt/questa/2024.3/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Compiling module fifo_tb_top
+-- Importing package fifo_tb_pkg
+
+Top level modules:
+	fifo_tb_top
+End time: 12:00:36 on Jan 28,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+vsim -sv_seed random -do vsim.do -c -coverage -suppress 3829 +UVM_VERBOSITY=UVM_HIGH +UVM_TESTNAME=test_base fifo_tb_top
+Reading pref.tcl
+
+# 2024.3_2
+
+# vsim -sv_seed random -do "vsim.do" -c -coverage -suppress 3829 "+UVM_VERBOSITY=UVM_HIGH" "+UVM_TESTNAME=test_base" fifo_tb_top 
+# Start time: 12:00:36 on Jan 28,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim-64
+# //  Version 2024.3_2 linux_x86_64 Nov 25 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.fifo_tb_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.fifo_tb_top(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fifo(behavioral)#1
+# Loading /opt/questa/2024.3/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# Sv_Seed = 1748759737
+# do vsim.do
+# resume
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test_base...
+# UVM_INFO ../fifo_tb_pkg/env.svh(31) @ 0: uvm_test_top.env_h [env] Created environment
+# UVM_INFO ../fifo_tb_pkg/agent.svh(34) @ 0: uvm_test_top.env_h.agent_h [agent] Created agent
+# UVM_INFO ../fifo_tb_pkg/driver.svh(30) @ 0: uvm_test_top.env_h.agent_h.drv_h [driver] Created driver
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(26) @ 0: uvm_test_top.env_h.agent_h.mnt_h [monitor] Created monitor
+# UVM_INFO ../fifo_tb_pkg/coverage_collector.svh(41) @ 0: uvm_test_top.env_h.cov_h [coverage collector] Created coverage collector
+# UVM_INFO ../fifo_tb_pkg/scoreboard.svh(42) @ 0: uvm_test_top.env_h.score_h [scoreboard] Created scoreboard
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(339) @ 0: reporter [Questa UVM] End Of Elaboration
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 1: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 1: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 3: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 3: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 5: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 5: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 7: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 7: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 9: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 9: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 11: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 11: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 13: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 13: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 15: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 15: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(105) @ 17: uvm_test_top.env_h.score_h [scoreboard] Data output is not the oldest data in FIFO
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(113) @ 17: uvm_test_top.env_h.score_h [scoreboard] Full signal is not same for DUT and model
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 17: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 17: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(116) @ 19: uvm_test_top.env_h.score_h [scoreboard] One place signal is not same for DUT and model
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 19: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 19: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 21: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 21: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 23: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 23: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(119) @ 25: uvm_test_top.env_h.score_h [scoreboard] One data signal is not same for DUT and model
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 25: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 25: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(110) @ 27: uvm_test_top.env_h.score_h [scoreboard] Empty signal is not same for DUT and model
+# UVM_ERROR ../fifo_tb_pkg/scoreboard.svh(119) @ 27: uvm_test_top.env_h.score_h [scoreboard] One data signal is not same for DUT and model
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 27: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 27: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 29: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 29: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 31: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# UVM_INFO ../fifo_tb_pkg/driver.svh(50) @ 31: uvm_test_top.env_h.agent_h.drv_h [driver] Transaction received, wiggling pins
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 33: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../fifo_tb_pkg/monitor.svh(59) @ 33: uvm_test_top.env_h.agent_h.mnt_h [monitor] Got data
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   44
+# UVM_WARNING :    0
+# UVM_ERROR :    6
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     3
+# [RNTST]     1
+# [TEST_DONE]     1
+# [agent]     1
+# [coverage collector]     1
+# [driver]    17
+# [env]     1
+# [monitor]    18
+# [scoreboard]     7
+# ** Note: $finish    : /opt/questa/2024.3/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 33 ns  Iteration: 54  Instance: /fifo_tb_top
+# Saving coverage database on exit...
+# End time: 12:00:38 on Jan 28,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
