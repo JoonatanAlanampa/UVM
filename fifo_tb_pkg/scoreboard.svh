@@ -91,7 +91,6 @@ class scoreboard extends uvm_scoreboard;
 
         // Update model
         if (read_now) begin
-            // AI gave this line (especially the void')
             void'(model.pop_front());
         end
         if (write_now) begin
