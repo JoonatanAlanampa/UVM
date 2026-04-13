@@ -4,14 +4,6 @@
 // UVM scoreboard class
 // ----------------------------------------------------------------------------
 
-/*
-    AI REPORT: ChatGPT 5.2 Thinking was used while making this class. AI was used mainly as a way to double check what I was doing. 
-    AI noted some of my wrong / dubious parts of code, and I changed these parts according to the version this AI generated.
-    Especially while verifying DUT status signals AI generated code was used. It also noticed some smaller errors such as 
-    that I was using logic instead of bit for model queue and that I could use bit instead of int type of data for some of the 
-    helper variables in the write function.
-*/
-
 class scoreboard extends uvm_scoreboard;
 
     // Registration macro
